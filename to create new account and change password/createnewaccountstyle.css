@@ -1,0 +1,75 @@
+body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(maxresdefault.jpg);
+    background-size: cover;
+    background-position: calc(center);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+
+}   
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.createaccount{
+    margin: 0;
+    width: 100%;
+    height: 800px;
+    background: #fff;
+    background-color: rgba(0,0,0,0.7);
+    top: 50%;
+    left: 50%;
+    position: center;
+    box-sizing: border-box;
+    padding:  70px,30px;
+}
+.createaccount p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+.createaccount input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 180px;
+    margin-left: 540px;
+}
+.createaccount input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: green;
+    color: #000;
+}
+.createaccount input[type="text"], input[type="password"], input[type="email"], input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 50%;
+    margin-left: 315px;
+    margin-right: 300px;
+    background: transparent;
+    border: 10px;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+
+}
+.createaccount input{
+    width: 50%;
+    margin-bottom: 20px;
+}
